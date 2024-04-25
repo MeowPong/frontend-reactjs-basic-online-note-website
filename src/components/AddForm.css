@@ -1,0 +1,72 @@
+.FormControl{
+    display: grid;
+    gap: 5px;
+}
+
+.LightTitleInput{
+    color: #000;
+    flex-grow: 1;
+    margin-top: 15px;
+    padding: 5px 18px;
+    border: 1px solid #eaeaea;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+.DarkTitleInput{
+    color: #fff;
+    flex-grow: 1;
+    margin-top: 15px;
+    padding: 5px 18px;
+    border: 1px solid #525355;
+    border-radius: 25px;
+    font-size: 18px;
+    background: #1A1A1A;
+    transition: all 500ms;
+
+}
+
+.LightDescriptionInput{
+    height: 200px;
+    flex-grow: 1;
+    margin-top: 10px;
+    padding: 5px 18px;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+.DarkDescriptionInput{
+    color: #fff;
+    flex-grow: 1;
+    margin-top: 10px;
+    padding: 10px 18px;
+    border: 1px solid #525355;
+    border-radius: 15px;
+    font-size: 16px;
+    background: #1A1A1A;
+    transition: all 500ms;
+
+}
+
+textarea{
+    resize: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.SubmitButton{
+    margin-top: 15px;
+    background-color: #60c689;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}

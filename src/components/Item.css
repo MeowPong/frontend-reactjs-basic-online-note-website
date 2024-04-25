@@ -1,0 +1,79 @@
+.LightListItem{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    margin: 0.3rem;
+    padding: 0.25rem 2rem;
+    color: #000;
+    background: #fff;
+    border: 1.5px solid #eaeaea;
+    border-radius: 0.25rem;
+    transition: all 500ms;
+}
+
+.DarkListItem{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    margin: 0.3rem;
+    padding: 0.25rem 2rem;
+    color: #fff;
+    background: #1A1A1A;
+    border: 1.5px solid #525355;
+    border-radius: 0.25rem;
+    transition: all 500ms;
+}
+
+.Title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.Description{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.ButtonContainer{
+    position: absolute;
+    bottom: 5px;
+    right: 5px; 
+}
+
+.Button{
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.DeleteButton{
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    color: #C21858;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    scale: 1.2;
+}
+
+.DeleteButton:hover{
+    scale: 1.5;
+    transition: 300ms;
+}
+
+.EditButton{
+    font-size: 1.2;
+    margin: 0.2rem;
+    color: #57dcbe;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    scale: 1.2;
+}
+
+.EditButton:hover{
+    scale: 1.5;
+    transition: 300ms;
+
+}

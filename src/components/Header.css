@@ -1,0 +1,44 @@
+.LightHeader{
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.DarkHeader{
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0 1px #525355;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo span{
+    font-size: 22px;
+    margin-left: 7px;
+}
+
+.ThemeContainer{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ThemeContainer span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ThemeIcon{
+    scale: 1.2;
+}
