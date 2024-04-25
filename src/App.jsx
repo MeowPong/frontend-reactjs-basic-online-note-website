@@ -18,7 +18,7 @@ function App() {
 
   // เมื่อเปลี่ยนแปลงค่าใน state ชื่อ task จะมีการเรียกใช้งานคำสั่งใน useState
   // เก็บข้อมูลใน localStorage ตั้งชื่อ localStorage ว่า tasks เก็บในรูปแบบ JSON โดยเก็บจาก state ชื่อว่า task
-  // เมื่อมีการเปลี่ยนแปลงข้อมูล เช่น เพิ่ม ลบ อัปเดต เราจะเก็บข้อมูลล่าสุดทั้งหมดนั้นลง localStorage
+  // เมื่อมีการเปลี่ยนแปลงข้อมูล เช่น เพิ่ม ลบ อัปเดต จะเก็บข้อมูลล่าสุดทั้งหมดนั้นลง localStorage
   useEffect(()=>{
     localStorage.setItem("tasks",JSON.stringify(task))
   },[task])
@@ -111,12 +111,3 @@ function App() {
 }
 
 export default App
-
-/* 
-e.preventDefault() จะทำให้ไม่เคลียร์ฟอร์มหากอัปเดตหน้าหรือกดปุ่ม submit
-
-
-
-
-
-*/
